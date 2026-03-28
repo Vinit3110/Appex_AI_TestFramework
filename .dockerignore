@@ -1,0 +1,29 @@
+# Dependencies (will be installed fresh inside container)
+node_modules/
+frontend/node_modules/
+
+# Environment files (injected at runtime via docker-compose)
+.env
+
+# Playwright outputs (regenerated at runtime)
+playwright-report/
+test-results/
+backend/reports/artifacts/
+backend/reports/test-results.json
+
+# Git / Editor
+.git/
+.gitignore
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Docs
+README.md
+frontend/README.md

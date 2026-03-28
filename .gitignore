@@ -1,0 +1,16 @@
+# ─── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Environment (contains API keys & secrets) ────────────────────────────────
+.env
+
+# ─── Playwright ────────────────────────────────────────────────────────────────
+playwright-report/
+backend/reports/artifacts/
+test-results/
+
+# ─── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

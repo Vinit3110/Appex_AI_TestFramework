@@ -1,0 +1,30 @@
+{
+  "name": "ai-test-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Cross-Platform Test Automation Framework",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug",
+    "server": "node backend/server.js",
+    "server:dev": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "eslint": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.0.0"
+  }
+}
