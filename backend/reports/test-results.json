@@ -111,12 +111,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8466,
+                      "duration": 7142,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.392Z",
+                      "startTime": "2026-03-28T14:14:33.415Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -145,12 +145,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 8238,
+                      "duration": 6591,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.350Z",
+                      "startTime": "2026-03-28T14:14:33.433Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -179,12 +179,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 8297,
+                      "duration": 6778,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.364Z",
+                      "startTime": "2026-03-28T14:14:33.428Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -213,12 +213,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 8298,
+                      "duration": 7384,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.402Z",
+                      "startTime": "2026-03-28T14:14:33.435Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -247,12 +247,12 @@
                       "workerIndex": 4,
                       "parallelIndex": 4,
                       "status": "passed",
-                      "duration": 7856,
+                      "duration": 6851,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.349Z",
+                      "startTime": "2026-03-28T14:14:33.489Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -281,12 +281,12 @@
                       "workerIndex": 5,
                       "parallelIndex": 5,
                       "status": "passed",
-                      "duration": 8360,
+                      "duration": 7378,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.324Z",
+                      "startTime": "2026-03-28T14:14:33.479Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -315,12 +315,12 @@
                       "workerIndex": 6,
                       "parallelIndex": 6,
                       "status": "passed",
-                      "duration": 9503,
+                      "duration": 8209,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-28T11:42:04.404Z",
+                      "startTime": "2026-03-28T14:14:33.475Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -340,8 +340,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-28T11:42:03.040Z",
-    "duration": 12215.725,
+    "startTime": "2026-03-28T14:14:32.206Z",
+    "duration": 10597.517,
     "expected": 7,
     "skipped": 0,
     "unexpected": 0,
@@ -349,19 +349,19 @@
   },
   "_meta": {
     "exitCode": 0,
-    "duration": "14.25s",
+    "duration": "12.18s",
     "browser": "chromium",
-    "completedAt": "2026-03-28T11:42:15.461Z",
+    "completedAt": "2026-03-28T14:14:42.997Z",
     "log": [
       "Running 7 tests using 7 workers",
-      "  ✓  3 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:96:3 › SauceDemo — Login › TC-05 | Both fields empty → shows error (7.9s)",
-      "  ✓  2 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:62:3 › SauceDemo — Login › TC-02 | Wrong password → shows credential error (8.2s)",
-      "  ✓  4 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:74:3 › SauceDemo — Login › TC-03 | Empty username → shows \"Username is required\" error (8.3s)",
-      "  ✓  1 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:108:3 › SauceDemo — Login › TC-06 | Locked-out user → shows locked account message (8.4s)",
-      "  ✓  6 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:85:3 › SauceDemo — Login › TC-04 | Empty password → shows \"Password is required\" error (8.3s)",
-      "  ✓  5 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:44:3 › SauceDemo — Login › TC-01 | Valid credentials → redirects to inventory page (8.5s)",
-      "  ✓  7 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:118:3 › SauceDemo — Login › TC-07 | Valid login → logout → re-login succeeds (9.5s)",
-      "  7 passed (12.2s)"
+      "  ✓  3 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:62:3 › SauceDemo — Login › TC-02 | Wrong password → shows credential error (6.6s)",
+      "  ✓  2 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:74:3 › SauceDemo — Login › TC-03 | Empty username → shows \"Username is required\" error (6.8s)",
+      "  ✓  7 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:96:3 › SauceDemo — Login › TC-05 | Both fields empty → shows error (6.9s)",
+      "  ✓  1 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:44:3 › SauceDemo — Login › TC-01 | Valid credentials → redirects to inventory page (7.1s)",
+      "  ✓  4 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:85:3 › SauceDemo — Login › TC-04 | Empty password → shows \"Password is required\" error (7.4s)",
+      "  ✓  6 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:108:3 › SauceDemo — Login › TC-06 | Locked-out user → shows locked account message (7.4s)",
+      "  ✓  5 [chromium] › backend\\test-engine\\web\\tests\\login.spec.js:118:3 › SauceDemo — Login › TC-07 | Valid login → logout → re-login succeeds (8.2s)",
+      "  7 passed (10.6s)"
     ]
   }
 }
