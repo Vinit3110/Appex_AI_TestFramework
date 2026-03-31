@@ -106,32 +106,7 @@ cd Appex_AI_TestFramework
 cp .env.example .env
 ```
 
-**2. Fill in `.env`**
-
-```env
-# App
-BASE_URL=https://www.saucedemo.com
-
-# SauceDemo test credentials
-VALID_USERNAME=standard_user
-VALID_PASSWORD=secret_sauce
-
-# Google Gemini
-GEMINI_API_KEY=your_gemini_api_key_here
-
-# Firebase
-FIREBASE_API_KEY=your_firebase_api_key_here
-FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-FIREBASE_PROJECT_ID=your_project_id
-FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-FIREBASE_APP_ID=your_app_id
-
-# Backend
-PORT=3001
-```
-
-**3. Build and run**
+**2. Build and run**
 
 ```bash
 docker-compose up --build
@@ -204,8 +179,8 @@ npm run test:report       # open the last HTML report
 |---|---|
 | Om Songire | [@Omsongire23](https://github.com/Omsongire23) |
 | Vinit Deore | [@Vinit3110](https://github.com/Vinit3110) |
-| Suyog Deore | — |
-| Dronav Dalvi | — |
+| Suyog Deore | [@suyofdeore08](https://github.com/suyogdeore08) |
+| Dronav Dalvi | [@dronav9-lab](https://github.com/dronav9-lab) |
 | Kalpesh Chavan | [@kalpesh-28](https://github.com/kalpesh-28) |
 
 ---
